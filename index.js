@@ -17,3 +17,8 @@ console.table(frutas);
 
 console.log("A quantidade de frutas é: " + frutas.length);
 
+const frutasTransformadas = frutas.map(fruta => {
+    const nomeMaiusculo = fruta.toUpperCase();
+    return `fruta: ${nomeMaiusculo} - fresca`;
+});
+console.table(frutasTransformadas);
