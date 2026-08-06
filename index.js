@@ -23,3 +23,5 @@ const paises = [
 
 console.table(paises.filter((pais) => pais.continente === 'América'));
 
+paises.reverse();
+console.table(paises);
