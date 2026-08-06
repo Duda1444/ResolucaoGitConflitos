@@ -13,4 +13,7 @@ console.log(frutaComM);
 frutas.sort();
 console.table(frutas);
 
+// desenvolvedor A fazendo sua parte do trabalho de quem seria o desenvolvedor C
+
+console.log("A quantidade de frutas é: " + frutas.length);
 
