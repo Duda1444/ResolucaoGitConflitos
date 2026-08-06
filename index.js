@@ -11,3 +11,15 @@ console.table(paises);
 
 paises.push(...["Japão", "Turquia", "Noruega", "Alemanha"]);
 console.table(paises);
+
+//Desenvolvedor B-3
+
+
+const paises = [
+    { nome: 'Japão', continente: 'Ásia' },
+    { nome: 'Brasil', continente: 'América' },
+    { nome: 'Noruega', continente: 'Europa' },
+];
+
+console.table(paises.filter((pais) => pais.continente === 'América'));
+
