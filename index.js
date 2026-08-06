@@ -22,3 +22,5 @@ const frutasTransformadas = frutas.map(fruta => {
     return `fruta: ${nomeMaiusculo} - fresca`;
 });
 console.table(frutasTransformadas);
+
+
